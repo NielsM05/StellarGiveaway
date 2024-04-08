@@ -1,0 +1,88 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 10px;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+main section {
+    background-color: rgba(242, 242, 242, 0.8);
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 15px; /* Increase border-radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+main section:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Increase box-shadow on hover */
+}
+nav ul li a:hover {
+    font-weight: bold;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    border-color: red;
+    box-shadow: darkred 0 0 5px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+}
+main section h1 {
+    font-family: 'Poppins', sans-serif; /* Change the font-family */
+    font-size: 2em; /* Increase the font-size */
+    color: #333; /* Change the color of the text */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Add a slight text-shadow */
+    margin-bottom: 10px; /* Add some margin */
+}
+
+main section p {
+    font-family: 'Poppins', sans-serif; /* Change the font-family */
+    font-size: 1.2em; /* Increase the font-size */
+    color: #666; /* Change the color of the text */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Add a slight text-shadow */
+    margin-bottom: 20px; /* Add some margin */
+}
